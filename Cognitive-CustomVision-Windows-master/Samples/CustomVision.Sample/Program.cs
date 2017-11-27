@@ -49,7 +49,7 @@ namespace CustomVision.Sample
 
         private static MemoryStream testImage;
 
-        static void Main(string[] args)/* これはコメント */
+        static void Main(string[] args)
         {
             // You can either add your training key here, pass it on the command line, or type it in when the program runs
             string trainingKey = GetTrainingKey("<your key here>", args);
